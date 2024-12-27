@@ -9,7 +9,8 @@ const settings = {
 const seo = {
   title: "Seny's Portefolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    // "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+      "Jeune diplômé en Data Engineering et Data Science, passionné par l'IA et les solutions data-driven. Rigoureux et curieux, je maîtrise Python, SQL, Machine Learning et la visualisation. Je recherche un stage ou CDD pour transformer les données en insights stratégiques et contribuer à des projets innovants.",
   og: {
     title: "Seny Toutou Diedhiou Portfolio",
     type: "website",
@@ -23,7 +24,8 @@ const greeting = {
   logo_name: "Seny Diedhiou",
   nickname: "setoudie",
   subTitle:
-    "Someone who loves working on projects that create real impact, building solutions that are sustainable and scalable, both socially and technically, from start to finish.",
+    // "Someone who loves working on projects that create real impact, building solutions that are sustainable and scalable, both socially and technically, from start to finish.",
+      "Diplômé en Data Engineering et Data Science, passionné par l'IA et les solutions data-driven. Rigoureux et curieux, je maîtrise Python, SQL, Machine Learning et la visualisation. Je recherche un stage ou CDD pour transformer les données en insights stratégiques et contribuer à des projets innovants.",
   resumeLink:
     "https://drive.google.com/file/d/1e-3kvFMaRn1YSSFT1ePxqdxDIa93fAbt/view?usp=sharing",
   portfolio_repository: "https://github.com/setoudie/MyPortefolio",
@@ -90,9 +92,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+          "⚡ Développement de modèles hautement scalables et prêts pour la production pour divers cas d'utilisation en deep learning et statistiques",
+          "⚡ Expertise en vision par ordinateur et traitement du langage naturel (NLP)",
+          "⚡ Modélisation quantitative complexe pour des prévisions dynamiques et l'analyse de séries temporelles",
       ],
       softwareSkills: [
         {
@@ -135,9 +137,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Développement de sites web réactifs avec React.js pour le frontend",
+        "⚡ Création de backends robustes avec Django et Flask",
+        "⚡ Développement d'API REST performantes et scalables avec Django et Flask",
       ],
       softwareSkills: [
         {
@@ -177,22 +179,22 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
           style: {
-            color: "#339933",
+            color: "#092E20",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
           style: {
-            color: "#CB3837",
+            color: "#092E20",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
           style: {
             color: "#2C8EBB",
           },
@@ -217,10 +219,10 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Expérience sur plusieurs plateformes cloud",
+        "⚡ Hébergement et maintenance de sites web sur des machines virtuelles avec intégration de bases de données",
+        "⚡ Déploiement de modèles de deep learning sur le cloud pour une utilisation sur appareils mobiles",
+        "⚡ Configuration de flux de données entre bases de données et serveurs (ou inversement) sur GCP et AWS",
       ],
       softwareSkills: [
         {
@@ -256,6 +258,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#336791",
+          },
+        },
+        {
+          skillName: "Neo4J",
+          fontAwesomeClassname: "simple-icons:neo4j",
+          style: {
+            color: "#008CC1",
           },
         },
         {
