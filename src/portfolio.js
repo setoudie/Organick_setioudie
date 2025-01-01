@@ -389,17 +389,19 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Université Cheikh Anta Diop",
-      subtitle: "Master en Modélisation des Systèmes et Phénomènes Physiques",
-      logo_path: "ucad-logo.png",
-      alt_name: "UCAD - Université Cheikh Anta Diop",
-      duration: "2018 - 2024",
+      title: "Orange Digital Center / Sonatel Academy",
+      subtitle: "Développeur Data",
+      logo_path: "sonatel_academy.jpg",
+      alt_name: "Sonatel Academy",
+      duration: "2024 - 2025",
       descriptions: [
-        "⚡ Mon parcours académique reflète mon amour pour la recherche scientifique et ma curiosité envers les phénomènes complexes, que ce soit dans le domaine physique ou en intelligence artificielle.",
-        "⚡ J'ai acquis une rigueur mathématique exceptionnelle à travers des notions avancées d'algèbre, de logique mathématique et d'équations différentielles.",
-        "⚡ J'ai étudié et appliqué des concepts de l'intelligence artificielle, du machine learning et de l'analyse de données, consolidant ma maîtrise des outils et techniques modernes."
+        "⚡ J'ai intégré l'une des meilleures écoles de code du Sénégal, où j'ai appris des frameworks backend Python tels que Django, Flask et Pyramid, ainsi que du JavaScript et React.js pour le développement frontend.",
+        "⚡ Le programme comprenait des notions avancées en Data Engineering et Intelligence Artificielle, notamment la création de pipelines ETL optimisés, l'implémentation de systèmes de recommandation, et l'optimisation de modèles avec GridSearchCV et RandomizedSearchCV.",
+        "⚡ J'ai également manipulé des architectures avancées en Deep Learning comme les réseaux de neurones convolutifs (CNN) et les réseaux récurrents (RNN).",
+        "⚡ L'apprentissage actif m'a permis de travailler sur des projets en équipe, renforçant ainsi mes compétences en collaboration et en communication.",
+        "⚡ J'ai également développé des soft skills clés tels que la résolution de problèmes et la gestion du temps dans un contexte d'équipe."
       ],
-      website_link: "https://www.ucad.sn/"
+      website_link: "https://orangedigitalcenter.sn/ecole-du-code-sonatel-academy/"
     },
     {
       title: "GoMyCode Sénégal",
@@ -414,21 +416,19 @@ const degrees = {
       ],
       website_link: "https://gomycode.com"
     },
-      {
-    title: "Orange Digital Center / Sonatel Academy",
-    subtitle: "Développeur Data",
-    logo_path: "sonatel_academy.jpg",
-    alt_name: "Sonatel Academy",
-    duration: "2024 - 2025",
-    descriptions: [
-      "⚡ J'ai intégré l'une des meilleures écoles de code du Sénégal, où j'ai appris des frameworks backend Python tels que Django, Flask et Pyramid, ainsi que du JavaScript et React.js pour le développement frontend.",
-      "⚡ Le programme comprenait des notions avancées en Data Engineering et Intelligence Artificielle, notamment la création de pipelines ETL optimisés, l'implémentation de systèmes de recommandation, et l'optimisation de modèles avec GridSearchCV et RandomizedSearchCV.",
-      "⚡ J'ai également manipulé des architectures avancées en Deep Learning comme les réseaux de neurones convolutifs (CNN) et les réseaux récurrents (RNN).",
-      "⚡ L'apprentissage actif m'a permis de travailler sur des projets en équipe, renforçant ainsi mes compétences en collaboration et en communication.",
-      "⚡ J'ai également développé des soft skills clés tels que la résolution de problèmes et la gestion du temps dans un contexte d'équipe."
-    ],
-    website_link: "https://orangedigitalcenter.sn/ecole-du-code-sonatel-academy/"
-  },
+    {
+      title: "Université Cheikh Anta Diop",
+      subtitle: "Master en Modélisation des Systèmes et Phénomènes Physiques",
+      logo_path: "ucad-logo.png",
+      alt_name: "UCAD - Université Cheikh Anta Diop",
+      duration: "2018 - 2024",
+      descriptions: [
+        "⚡ Mon parcours académique reflète mon amour pour la recherche scientifique et ma curiosité envers les phénomènes complexes, que ce soit dans le domaine physique ou en intelligence artificielle.",
+        "⚡ J'ai acquis une rigueur mathématique exceptionnelle à travers des notions avancées d'algèbre, de logique mathématique et d'équations différentielles.",
+        "⚡ J'ai étudié et appliqué des concepts de l'intelligence artificielle, du machine learning et de l'analyse de données, consolidant ma maîtrise des outils et techniques modernes."
+      ],
+      website_link: "https://www.ucad.sn/"
+    },
   ],
 
 };
