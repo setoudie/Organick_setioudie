@@ -375,58 +375,60 @@ const competitiveSites = {
     //   },
     //   profileLink: "https://www.hackerearth.com/@ashutosh391",
     // },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
-    // },
+    {
+      siteName: "Kaggle",
+      iconifyClassname: "simple-icons:kaggle",
+      style: {
+        color: "#20BEFF",
+      },
+      profileLink: "https://www.kaggle.com/setoudie",
+    },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "University Cheikh Anta Diop",
-      subtitle: "Master Modelisation de Systemes et Phenomes Physiques",
+      title: "Université Cheikh Anta Diop",
+      subtitle: "Master en Modélisation des Systèmes et Phénomènes Physiques",
       logo_path: "ucad-logo.png",
-      alt_name: "IIITDM Kurnool",
+      alt_name: "UCAD - Université Cheikh Anta Diop",
       duration: "2018 - 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Mon parcours académique reflète mon amour pour la recherche scientifique et ma curiosité envers les phénomènes complexes, que ce soit dans le domaine physique ou en intelligence artificielle.",
+        "⚡ J'ai acquis une rigueur mathématique exceptionnelle à travers des notions avancées d'algèbre, de logique mathématique et d'équations différentielles.",
+        "⚡ J'ai étudié et appliqué des concepts de l'intelligence artificielle, du machine learning et de l'analyse de données, consolidant ma maîtrise des outils et techniques modernes."
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.ucad.sn/"
     },
     {
-      title: "GoMyCode Senegal",
-      subtitle: "BootCamp Data Science",
+      title: "GoMyCode Sénégal",
+      subtitle: "Bootcamp Data Science",
       logo_path: "gomycode.png",
-      alt_name: "Indiana University Bloomington",
+      alt_name: "GoMyCode",
       duration: "2023",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ J'ai suivi un Bootcamp intensif en Data Science, qui m'a permis d'affiner mes compétences en programmation avec Python et en analyse de données.",
+        "⚡ J'ai travaillé sur plusieurs projets pratiques, incluant la manipulation de données, la création de modèles de machine learning et la visualisation des résultats pour résoudre des problématiques réelles.",
+        "⚡ Ce programme m'a également permis de développer une compréhension approfondie des bibliothèques et outils comme pandas, NumPy, scikit-learn et matplotlib."
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://gomycode.com"
     },
-    {
-      title: "Orange Digital Center / Sonatel Academy",
-      subtitle: "Devellopper Data",
-      logo_path: "sonatel_academy.jpg",
-      alt_name: "Indiana University Bloomington",
-      duration: "2024 - 2025",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
-    },
+      {
+    title: "Orange Digital Center / Sonatel Academy",
+    subtitle: "Développeur Data",
+    logo_path: "sonatel_academy.jpg",
+    alt_name: "Sonatel Academy",
+    duration: "2024 - 2025",
+    descriptions: [
+      "⚡ J'ai intégré l'une des meilleures écoles de code du Sénégal, où j'ai appris des frameworks backend Python tels que Django, Flask et Pyramid, ainsi que du JavaScript et React.js pour le développement frontend.",
+      "⚡ Le programme comprenait des notions avancées en Data Engineering et Intelligence Artificielle, notamment la création de pipelines ETL optimisés, l'implémentation de systèmes de recommandation, et l'optimisation de modèles avec GridSearchCV et RandomizedSearchCV.",
+      "⚡ J'ai également manipulé des architectures avancées en Deep Learning comme les réseaux de neurones convolutifs (CNN) et les réseaux récurrents (RNN).",
+      "⚡ L'apprentissage actif m'a permis de travailler sur des projets en équipe, renforçant ainsi mes compétences en collaboration et en communication.",
+      "⚡ J'ai également développé des soft skills clés tels que la résolution de problèmes et la gestion du temps dans un contexte d'équipe."
+    ],
+    website_link: "https://orangedigitalcenter.sn/ecole-du-code-sonatel-academy/"
+  },
   ],
 
 };
@@ -443,11 +445,11 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
+      title: "Generative AI for Everyone",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://coursera.org/share/296c5cb73598e7261d89eb0fbe339341",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -461,11 +463,11 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "Data Science",
+      title: "What is Data Science?",
       subtitle: "- Alex Aklson",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+        "https://coursera.org/share/024d7f19442dfec22a96df5fb6f8d60c",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -748,7 +750,7 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
+    title: "Contactez Moi",
     profile_image_path: "senypp.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
@@ -772,8 +774,8 @@ const contactPageData = {
     location_map_link: "https://maps.app.goo.gl/KP84xT4KjyQdZDAPA",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Telephone",
+    subtitle: "+221 775878934",
   },
 };
 
