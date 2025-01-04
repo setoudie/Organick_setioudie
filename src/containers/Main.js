@@ -13,7 +13,7 @@ import Error404 from "../pages/errors/error404/Error";
 export default class Main extends Component {
   render() {
     return (
-      <BrowserRouter basename="/setoudie-portfolio">
+      <BrowserRouter basename="/">
         <Switch>
           {/*Cette route la page loader probleme avec le splash*/}
           <Route
