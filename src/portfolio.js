@@ -14,7 +14,7 @@ const seo = {
   og: {
     title: "Seny Toutou Diedhiou Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
@@ -25,10 +25,10 @@ const greeting = {
   nickname: "setoudie",
   subTitle:
     // "Someone who loves working on projects that create real impact, building solutions that are sustainable and scalable, both socially and technically, from start to finish.",
-      "Diplômé en Data Engineering et Data Science, passionné par l'IA et les solutions data-driven. Rigoureux et curieux, je maîtrise Python, SQL, Machine Learning et la visualisation. Je recherche un stage ou CDD pour transformer les données en insights stratégiques et contribuer à des projets innovants.",
+      "Diplômé en Data Engineering et Data Science, je suis passionné par la transformation des données en solutions stratégiques. Curieux et rigoureux, je cherche à explorer des projets innovants qui apportent une réelle valeur ajoutée et façonnent l’avenir.",
   resumeLink:
     "https://drive.google.com/file/d/1e-3kvFMaRn1YSSFT1ePxqdxDIa93fAbt/view?usp=sharing",
-  portfolio_repository: "https://github.com/setoudie/MyPortefolio",
+  portfolio_repository: "https://github.com/setoudie/Portolio",
   githubProfile: "https://github.com/setoudie",
 };
 
@@ -689,12 +689,13 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Projets",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Mes projets exploitent une grande variété d'outils technologiques récents. Mon expérience la plus enrichissante consiste à créer des projets en data science et à les déployer sous forme d'applications web en utilisant des infrastructures cloud.",
   avatar_image_path: "projects_image.svg",
 };
 
+// Cette section contient les articles publies. le component correspondant a ete commente
 const publicationsHeader = {
   title: "Publications",
   description: "Some of my published Articles, Blogs and Research.",
@@ -733,13 +734,13 @@ const contactPageData = {
     title: "Contactez Moi",
     profile_image_path: "senypp.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Je suis disponible sur presque tous les réseaux sociaux. Vous pouvez m'envoyer un message, et je répondrai dans les 24 heures. Je peux vous aider avec le Machine Learning, l'IA, React, le Cloud et le développement Open Source.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Vision",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "\" Rêver est la première étape, car c’est dans nos rêves que naissent les grandes idées. Mais sans action, ces idées restent à l’état de rêves. Agir, c’est faire en sorte que l’impossible devienne possible grâce à la persévérance et à l’effort. \"",
+    link: "https://linkedin.com/in/seny-toutou-diedhiou/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -751,7 +752,7 @@ const contactPageData = {
     postalCode: "95129",
     streetAddress: "Dieupeul 3",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/KP84xT4KjyQdZDAPA",
+    location_map_link: "https://call.whatsapp.com/voice/jYQaIc0cqh0XO7KyFMOJyk",
   },
   phoneSection: {
     title: "Telephone",

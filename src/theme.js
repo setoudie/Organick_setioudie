@@ -195,4 +195,60 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
+export const oceanBreezeTheme = {
+  body: "#f0f8ff",
+  text: "#2a3d5b",
+  expTxtColor: "#333333",
+  highlight: "#a2c9d3",
+  dark: "#1f2c3d",
+  secondaryText: "#4f6b7b",
+  imageHighlight: "#4e97b9",
+  compImgHighlight: "#d0e7f2",
+  jacketColor: "#b0c8d3",
+  headerColor: "#4e97b9",
+  splashBg: "#2a3d5b",
+};
+
+export const sunsetCalmTheme = {
+  body: "#ffe4e1",
+  text: "#7c3d3e",
+  expTxtColor: "#4c2a2f",
+  highlight: "#f4c7a1",
+  dark: "#5c1a1a",
+  secondaryText: "#9e4a44",
+  imageHighlight: "#e68c4f",
+  compImgHighlight: "#f1e0d6",
+  jacketColor: "#f1d3b5",
+  headerColor: "#e68c4f",
+  splashBg: "#7c3d3e",
+};
+
+export const mossyGreenTheme = {
+  body: "#f0f4f1",
+  text: "#2b4c37",
+  expTxtColor: "#3b6a53",
+  highlight: "#8fae8d",
+  dark: "#1e3d28",
+  secondaryText: "#4f7b65",
+  imageHighlight: "#6b8c49",
+  compImgHighlight: "#a0bca4",
+  jacketColor: "#d9e5d4",
+  headerColor: "#6b8c49",
+  splashBg: "#2b4c37",
+};
+
+export const blueGreenChillTheme = {
+  body: "#e1f5f3",
+  text: "#2d4d42",
+  expTxtColor: "#4e6b63",
+  highlight: "#7bb8b2",
+  dark: "#1e3a35",
+  secondaryText: "#4f7a6d",
+  imageHighlight: "#5c9e8f",
+  compImgHighlight: "#c2e3df",
+  jacketColor: "#9dc6c2",
+  headerColor: "#5c9e8f",
+  splashBg: "#2d4d42",
+};
+
 export const chosenTheme = materialTealTheme;

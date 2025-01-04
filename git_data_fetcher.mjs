@@ -8,12 +8,11 @@ const openSource = {
   githubConvertedToken: process.env.GITHUB_TOKEN,
   githubUserName: process.env.GITHUB_USERNAME,
 };
-
 const query_pr = {
   query: `
 	query {
 	  user(login: "${openSource.githubUserName}"){
-	    pullRequests(last: 100, orderBy: {field: CREATED_AT, direction: DESC}){
+	    pullRequests(last: 10, orderBy: {field: CREATED_AT, direction: DESC}){
       totalCount
       nodes{
         id
@@ -50,7 +49,7 @@ const query_issue = {
   query: `query{
 
 		user(login: "${openSource.githubUserName}") {
-    issues(last: 100, orderBy: {field:CREATED_AT, direction: DESC}){
+    issues(last: 10, orderBy: {field:CREATED_AT, direction: DESC}){
       totalCount
       nodes{
       	id
@@ -85,7 +84,7 @@ const query_issue = {
 const query_org = {
   query: `query{
 	user(login: "${openSource.githubUserName}") {
-	    repositoriesContributedTo(last: 100){
+	    repositoriesContributedTo(last: 10){
 	      totalCount
 	      nodes{
 	        owner{
