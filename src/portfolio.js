@@ -27,7 +27,7 @@ const greeting = {
     // "Someone who loves working on projects that create real impact, building solutions that are sustainable and scalable, both socially and technically, from start to finish.",
       "Diplômé en Data Engineering et Data Science, je suis passionné par la transformation des données en solutions stratégiques. Curieux et rigoureux, je cherche à explorer des projets innovants qui apportent une réelle valeur ajoutée et façonnent l’avenir.",
   resumeLink:
-    "https://drive.google.com/file/d/1e-3kvFMaRn1YSSFT1ePxqdxDIa93fAbt/view?usp=sharing",
+    "https://drive.google.com/file/d/1O8ssYhHZfa_9Dw8X4P9CfdomDNFrB3do/view?usp=sharing",
   portfolio_repository: "https://github.com/setoudie/Portolio",
   githubProfile: "https://github.com/setoudie",
 };
@@ -341,7 +341,7 @@ const competitiveSites = {
       style: {
         color: "#05ab03",
       },
-      profileLink: "https://pathfinder.w3schools.com/",
+      profileLink: "https://www.w3profile.com/setoudie",
     },
     // {
     //   siteName: "HackerRank",

@@ -11,11 +11,9 @@
 # Cloner et Utiliser 📋
 
 - Ce site web est entièrement construit avec la bibliothèque `react-js` de `javascript`, d'où la nécessité d'installer `nodejs` et `npm`.  
-- Lors de l'installation de `nodejs` et `npm`, essayez d'installer des versions égales ou supérieures à celles mentionnées dans les badges ci-dessus.  
-- Si vous voulez contribuer à son développement ou simplement l'enregistrer, vous pouvez forker le dépôt en cliquant sur le bouton dans le coin supérieur droit de cette page.  
 - Une fois `nodejs` et `npm` installés avec succès, clonez le dépôt sur votre système local en exécutant la commande suivante :  
   ```bash
-   git clone https://github.com/ashutosh1919/masterPortfolio.git
+   git clone https://github.com/setoudie/etoudie.github.io.git
   ```
   Cela clonera l'intégralité du dépôt sur votre système.  
 - Pour télécharger les dépendances nécessaires sur votre système, naviguez vers le répertoire où le dépôt cloné réside et exécutez la commande suivante :  
@@ -96,7 +94,11 @@ Chaque fois que vous souhaitez mettre à jour les informations liées à Github 
 
 - Vous devrez modifier le titre du site web et d'autres descriptions dans `public/index.html`.  
 - Vous pouvez définir votre propre favicon dans le répertoire `public/icons`. Si vous n'avez pas de favicon, vous pouvez en générer un à partir de [Favicon Generator](https://www.favicon-generator.org/) et [Favicon IO](https://favicon.io/).  
-- Vous pouvez également éditer l'aperçu de votre site (appelé l'image de description). Lancez votre site localement, prenez une capture d'écran et remplacez-la par `public/icons/desc.png`. Assurez-vous que votre capture d'écran mesure 1280x640 pour un meilleur aperçu.  
+- Vous pouvez également éditer l'aperçu de votre site (appelé l'image de description). Lancez votre site localement, prenez une capture d'écran. Assurez-vous que votre capture d'écran mesure 1280x640 pour un meilleur aperçu.  
+
+## Petite appercue du projet 
+
+![img_1.png](img_1.png)
 
 # Choisir un thème 🌈
 
